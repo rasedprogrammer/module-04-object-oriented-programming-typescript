@@ -10,7 +10,8 @@ const Vehicle: IVehicle = {
 // interface IVeh {
 // 	startEngine(): void;
 // 	stopEngine(): void;
-// 	move(): void;
+// We can also use interface method optional way
+// 	move?(): void;
 // }
 
 // class VehicleEngine implements IVeh {
@@ -20,11 +21,9 @@ const Vehicle: IVehicle = {
 // 	stopEngine(): void {
 // 		console.log(`I am stopping the vehicle`);
 // 	}
+// If we don't have a move method it's not showing error
 // 	move(): void {
 // 		console.log(`I am moving the vehicle`);
-// 	}
-// 	test(): void {
-// 		console.log(`For Testing Purpose`);
 // 	}
 // }
 
